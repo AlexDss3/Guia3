@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ins"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btnLista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:onClick="Lista"
+        android:text="@string/btnLista"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btnNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:onClick="Nombre"
+        android:text="@string/btnNombre"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btnDatos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:onClick="Datos"
+        android:text="@string/btnDatos"
+        android:textSize="15dp" />
+
+</LinearLayout>

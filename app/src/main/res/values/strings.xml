@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Guia3</string>
+    <string name="ins">Elije una opcion:</string>
+    <string name="btnLista">Ver Lista</string>
+    <string name="btnNombre">Agregar Nombre</string>
+    <string name="btnDatos">Mis Datos</string>
+    <string name="Nombre">Ingresar Nombre:</string>
+    <string name="btnProcesar">Procesar</string>
+    <string name="btnRegresar">Regresar</string>
+</resources>
